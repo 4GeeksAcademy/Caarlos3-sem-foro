@@ -8,9 +8,9 @@ const Semaforo = () => {
 
         <div className="container">
             <div className="box">
-                <div className={"lightRed" +" "+ ( ilumination === "lightRed" ? "shadow" : "")} onClick={() => setIlumination("lightRed")}></div>
-                <div className={"lightYellow" +" "+ (ilumination === "lightYellow" ? "shadow" : "")} onClick={() => setIlumination("lightYellow")}></div>
-                <div className={"lightGreen" +" "+ (ilumination === "lightGreen" ? "shadow" : "")} onClick={() => setIlumination("lightGreen")}></div>
+                <div className={"lightRed" +" "+ ( ilumination === "lightRed" ? "shadowLight" : "")} onClick={() => setIlumination("lightRed")}></div>
+                <div className={"lightYellow" +" "+ (ilumination === "lightYellow" ? "shadowLight" : "")} onClick={() => setIlumination("lightYellow")}></div>
+                <div className={"lightGreen" +" "+ (ilumination === "lightGreen" ? "shadowLight" : "")} onClick={() => setIlumination("lightGreen")}></div>
             </div>
         </div>
     )
