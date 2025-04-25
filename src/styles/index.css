@@ -1,10 +1,10 @@
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
-    
+
 }
 
 .box {
@@ -18,11 +18,14 @@
 }
 
 .box * {
+    height: 130px;
+    width: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 15px;
     border-radius: 50%;
+    overflow: visible;
 }
 
 .lightRed {
@@ -38,4 +41,9 @@
 .lightGreen {
     background-color: greenyellow;
     margin: 10px;
+}
+
+.shadow {
+    box-shadow: 0 0 40px 20px lime;
+    position: relative;
 }
